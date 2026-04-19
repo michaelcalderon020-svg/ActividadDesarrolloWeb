@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MotorShop SA</title>
+    <link rel="stylesheet" href="./DOM/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+
+<body class="body">
+
+    <header>
+        <!-- Menu con hipervinculos del inicio / Productos / Agendar citas. -->
+        <nav class="menu">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./DOM/products.html">Productos</a></li>
+                <li><a href="#">Agendar citas</a></li>
+            </ul>
+
+            <nav id="nav-actions">
+                <button class="btnNav" id="btn-show-login">Login Administrador</button>
+                <button class="btnNav" id="btn-show-login">Cerrar sesión</button>
+            </nav>
+        </nav>
+    </header>
+
+    <main>
+        <section id="login-section" class="hidden">
+            <div class="card">
+                <h2 style="font-family: 'Tahoma', sans-serif;">Acceso Administrador</h2>
+                <input type="text" id="user-input" placeholder="Usuario">
+                <input type="password" id="pass-input" placeholder="Contraseña">
+                <button class="btn" id="btn-login">Ingresar</button>
+                <p id="login-error" class="error hidden"> Usuario o contraseña incorrecta</p>
+            </div>
+        </section>
+
+
+        <section id="store-section">
+            <br>
+            <h2>MotorShop SA</h2>
+            <div id="products-grid" class="grid-container">
+            </div>
+        </section>
+    </main>
+
+    <Section>
+
+        <h1 class="titulo"> ¿Quienes somos?</h1>
+        <div>
+
+            <div class="contenedor">
+
+                <p>
+                    Somos una empresa especializada en la reparación y mantenimiento de motocicletas, comprometida con
+                    brindar soluciones rápidas, seguras y de alta calidad. Contamos con un equipo de técnicos
+                    capacitados y apasionados por el mundo de las motos, que trabajan con dedicación para garantizar el
+                    óptimo funcionamiento de cada vehículo.
+
+                    Nuestro objetivo es ofrecer un servicio confiable que supere las expectativas de nuestros clientes,
+                    cuidando cada detalle y utilizando herramientas y repuestos de excelente calidad. Más que reparar
+                    motos, buscamos construir relaciones de confianza y acompañarte en cada kilómetro de tu camino.
+                </p>
+
+                <div>
+
+                    <img src="https://plus.unsplash.com/premium_photo-1674375348357-a25140a68bbd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2VydmljaW8lMjBkZSUyMHJlcGFyYWNpJUMzJUIzbnxlbnwwfHwwfHx8MA%3D%3D"
+                        alt="Imagen muestra de servicio" class="imgInicio">
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </Section>
+
+    <Section>
+
+        <br>
+        <h1 class="titulo"> ¿Por qué confiar en nosotros?</h1>
+
+        <div class="contenedor">
+
+            <div>
+
+                <img src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2VydmljaW8lMjBkZSUyMHJlcGFyYWNpJUMzJUIzbnxlbnwwfHwwfHx8MA%3D%3D"
+                    alt="Imagen muestra de servicio" class="imgInicio2">
+
+            </div>
+
+            <div>
+
+                <p>
+                    Elegirnos significa dejar tu motocicleta en manos expertas. Nos destacamos por nuestra
+                    responsabilidad, transparencia y compromiso con cada cliente. Realizamos diagnósticos precisos y
+                    ofrecemos soluciones efectivas, siempre explicando cada proceso de forma clara.
+
+                    Trabajamos con estándares de calidad, cumplimos con los tiempos de entrega y utilizamos repuestos
+                    confiables. Tu seguridad y satisfacción son nuestra prioridad, por eso nos esforzamos en brindar un
+                    servicio honesto y profesional en todo momento.
+                </p>
+
+            </div> <br>
+
+
+        </div>
+
+    </Section> <br>
+
+    <Section>
+
+        <h1 class="titulo"> Nuestros productos y servicios</h1>
+        <div>
+
+            <div class="contenedor">
+
+                <p>
+                    En nuestro catálogo podrás encontrar lo mejor de lo mejor para tu motocicleta. Ofrecemos repuestos
+                    de alta calidad, accesorios modernos y servicios especializados diseñados para mejorar el
+                    rendimiento y la durabilidad de tu moto.
+
+                    Nos aseguramos de trabajar con productos confiables y reconocidos en el mercado, para que tengas la
+                    tranquilidad de que estás invirtiendo en calidad. Aquí encontrarás todo lo que tu moto necesita para
+                    mantenerse en perfectas condiciones y lucir siempre impecable.
+
+                </p>
+
+                <div>
+
+                    <img src="https://images.unsplash.com/photo-1702146713858-8e7d1cc29fe8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNlcnZpY2lvJTIwZGUlMjByZXBhcmFjaSVDMyVCM258ZW58MHx8MHx8fDA%3D"
+                        alt="Imagen muestra de servicio" class="imgInicio">
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </Section><br>
+
+    <section>
+
+        <H1 class="titulo"> Encuentra aqui nuestros productos</H1>
+        <a href="DOM/products.html">
+            <button class="btn" style="background-color: white; display: flex; margin: 0 auto;"> Visualiza nuestros
+                productos</button>
+        </a>
+    </section> <br>
+
+    <!-- scripts de botstrap-->
+    <script src="./DOM/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC  +hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+<!-- Pie de pagina-->
+
+<footer style="background:#111; padding:2.5rem 2rem 1.5rem;">
+    <div class="container">
+
+        <!-- Tagline opcional -->
+        <p
+            style="font-size:13px; color:#888; text-align:center; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:1.5rem;">
+            Presentado Por: Maicol Steven Calderon Moreno
+        </p>
+
+        <!-- Íconos sociales -->
+        <div style="display:flex; justify-content:center; gap:20px; margin-bottom:2rem;">
+            <a href="https://facebook.com"
+                style="display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;border:1px solid rgba(255,255,255,0.12);background:rgba(255,255,255,0.04);">
+                <i class="fab fa-facebook-f" style="color:#bbb;"></i>
+            </a>
+            <a href="https://instagram.com"
+                style="display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;border:1px solid rgba(255,255,255,0.12);background:rgba(255,255,255,0.04);">
+                <i class="fab fa-instagram" style="color:#bbb;"></i>
+            </a>
+            <a href="https://linkedin.com"
+                style="display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;border:1px solid rgba(255,255,255,0.12);background:rgba(255,255,255,0.04);">
+                <i class="fab fa-linkedin-in" style="color:#bbb;"></i>
+            </a>
+            <a href="https://github.com"
+                style="display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;border:1px solid rgba(255,255,255,0.12);background:rgba(255,255,255,0.04);">
+                <i class="fab fa-github" style="color:#bbb;"></i>
+            </a>
+        </div>
+
+        <!-- Línea divisoria -->
+        <hr style="border:none;border-top:0.5px solid rgba(255,255,255,0.1);margin-bottom:1.25rem;">
+
+        <!-- Copyright + links -->
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;">
+            <span style="font-size:12px;color:#555;">© 2026 Tu Empresa. Todos los derechos reservados.</span>
+            <div style="display:flex;gap:20px;">
+                <a href="#" style="font-size:12px;color:#555;text-decoration:none;">Privacidad</a>
+                <a href="#" style="font-size:12px;color:#555;text-decoration:none;">Términos</a>
+                <a href="#" style="font-size:12px;color:#555;text-decoration:none;">Contacto</a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+</html>

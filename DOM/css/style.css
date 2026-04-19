@@ -1,0 +1,162 @@
+/* Configuración general del cuerpo */
+.body {
+    font-family: 'Arial', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+/* Espacio del contenido */
+.content {
+    padding: 20px;
+}
+
+/* Color del fondo del menu y contenido */
+.menu {
+    background-color: #333;
+    color: white;
+    padding: 8px;
+}
+
+/* Estilo para la lista de elementos del menú */
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para los elementos de la lista del menú */
+.menu li {
+    margin: 10px 15px;
+}
+
+/* Estilo para los enlaces del menú */
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Efecto de hover para los enlaces del menú */
+.menu a:hover {
+    background-color: #555;
+}
+
+/* Edicion de botones */
+.btnNav {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/*Efecto de boton*/
+.btnNav:hover {
+    background-color: #777;
+}
+
+/* Uso de id para edicion de acciones */
+#nav-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* Ingreso de datos admin */
+#login-section {
+    padding: 20px;
+}
+
+#login-section input {
+
+    flex: 1 1 180px;
+    padding: 10px 14px;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fafafa;
+
+}
+
+
+
+
+/* Formulario admin */
+#admin-section {
+    padding: 20px;
+}
+
+#admin-section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.titulo {
+
+    text-align: center;
+    padding: auto;
+}
+
+.contenedor {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px
+}
+
+.contenedor p {
+    width: 50%;
+}
+
+.imgInicio {
+
+    width: 65%;
+    max-width: 300 px;
+    border-radius: 10px;
+}
+
+.imgInicio2 {
+
+    margin-top: 40 px;
+    margin-left: 100px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.contenedor div {
+    width: 50%;
+}
+
+.btnTitulo {
+
+    bottom: unset;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

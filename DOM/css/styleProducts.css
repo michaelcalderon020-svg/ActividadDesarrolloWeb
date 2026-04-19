@@ -1,0 +1,233 @@
+/* Configuración general del cuerpo */
+.body {
+    font-family: 'Arial', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+/* Espacio del contenido */
+.content {
+    padding: 20px;
+}
+
+/* Color del fondo del menu y contenido */
+.menu {
+    background-color: #333;
+    color: white;
+    padding: 8px;
+}
+
+/* Estilo para la lista de elementos del menú */
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para los elementos de la lista del menú */
+.menu li {
+    margin: 10px 15px;
+}
+
+/* Estilo para los enlaces del menú */
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Efecto de hover para los enlaces del menú */
+.menu a:hover {
+    background-color: #555;
+}
+
+/*Botones*/
+.btn {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #777;
+}
+
+#nav-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 280px));
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+    max-width: 260px;
+}
+
+.product-card:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.product-card p {
+    color: #444;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#btn-save-product:hover {
+    background-color: #555;
+}
+
+/* Botones editar y eliminar en tarjetas */
+.btn-edit,
+.btn-delete {
+    padding: 6px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    margin: 5px 3px 0;
+    transition: opacity 0.2s ease;
+}
+
+.btn-edit {
+    background-color: #011d3a;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #7d0c0c;
+    color: white;
+}
+
+.btn-edit:hover,
+.btn-delete:hover {
+    opacity: 0.85;
+}
+
+/* Ingreso de datos admin */
+#login-section {
+    padding: 20px;
+}
+
+#login-section input {
+
+    flex: 1 1 180px;
+    padding: 10px 14px;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fafafa;
+
+}
+
+/* Formulario admin */
+#admin-section {
+    padding: 20px;
+}
+
+#admin-section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#product-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#product-form input {
+    flex: 1 1 180px;
+    padding: 10px 14px;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fafafa;
+}
+
+#product-form input:focus {
+    border-color: #555;
+    box-shadow: 0 0 6px rgba(85, 85, 85, 0.3);
+    background-color: #fff;
+}
+
+#product-form input::placeholder {
+    color: #aaa;
+    font-size: 13px;
+}
+
+#btn-save-product {
+    flex: 1 1 140px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
